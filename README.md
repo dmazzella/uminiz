@@ -1,4 +1,4 @@
-ufastlz
+uminiz
 =====
 
 Micropython wrapper for [miniz](https://github.com/richgel999/miniz), miniz: Single C source file zlib-replacement library, originally from code.google.com/p/miniz.
