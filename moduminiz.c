@@ -123,6 +123,6 @@ const mp_obj_module_t mp_module_uminiz = {
 };
 
 // Register the module to make it available in Python
-MP_REGISTER_MODULE(MP_QSTR__miniz, mp_module_uminiz, MICROPY_PY_UMINIZ);
+MP_REGISTER_MODULE(MP_QSTR__miniz, mp_module_uminiz);
 
 #endif // MICROPY_PY_UMINIZ
