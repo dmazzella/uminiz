@@ -56,7 +56,7 @@ STATIC mp_obj_t uminiz_compress(size_t n_args, const mp_obj_t *args, mp_map_t *k
     mp_get_buffer_raise(args[0], &bufinfo_data, MP_BUFFER_READ);
     mp_int_t level = vals[ARG_level].u_int;
 
-    if (level < 0 && level > 9)
+    if (level < 0 || level > 9)
     {
         mp_raise_ValueError(MP_ERROR_TEXT("level must be in range 0-9"));
     }
